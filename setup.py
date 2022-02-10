@@ -50,7 +50,7 @@ setup(
         "Source": "https://github.com/newvicx/async_negotiate_sspi",
     },
     license="MIT",
-    description="This package allows for Single-Sign On HTTP Negotiate authentication using the httpx_extensions library on Windows",
+    description="Single-Sign On for HTTP and Websocket Negotiate authentication in async frameworks on Windows",
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
     author="Chris Newville",

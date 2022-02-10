@@ -2,6 +2,7 @@ from anyio.streams.tls import TLSAttribute, TLSStream
 from httpcore.backends.asyncio import AsyncIOStream
 
 from .negotiate import NegotiateAuth
+from .negotiate_ws import NegotiateAuthWS
 
 # Monkey patch AsnycIO and Trio Streams to expose peercert
 orig_AsyncIOStream__init__ = AsyncIOStream.__init__
