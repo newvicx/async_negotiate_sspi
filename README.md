@@ -48,11 +48,11 @@ You can install async_negotiate_sspi via pip
  - delegate (bool): Indicates that the user's credentials are to be delegated to the server - Default: False
 
 ## Supports
-* Python >=3.6
+* Python >=3.7
 
 ## Requires
-* httpx_extensions==0.1.1
-* ws_auth==0.0.1
-* pywin32==303
+* httpx_extensions>=0.1.1
+* ws_auth>=0.0.1
+* pywin32>=303
 	
 

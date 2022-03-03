@@ -42,7 +42,7 @@ def get_requirements():
 
 setup(
     name="async_negotiate_sspi",
-    python_requires=">=3.6",
+    python_requires=">=3.7",
     version=get_version("async_negotiate_sspi"),
     url="https://github.com/newvicx/async_negotiate_sspi",
     project_urls={
@@ -70,7 +70,6 @@ setup(
         "Framework :: AsyncIO",
         "Framework :: Trio",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
