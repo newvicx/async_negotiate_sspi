@@ -52,7 +52,7 @@ You can install async_negotiate_sspi via pip
 
 ## Requires
 * httpx_extensions>=0.1.1
-* ws_auth>=0.0.1
+* ws_auth>=0.1.0
 * pywin32>=303
 	
 
